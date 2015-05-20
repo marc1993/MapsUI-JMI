@@ -1,0 +1,12 @@
+﻿<Properties GitUserInfo="UsingGIT">
+  <DisabledProjects>
+    <String>Mapsui.UI.Xaml/Mapsui.UI.Xaml.csproj</String>
+    <String>Mapsui.Rendering.Xaml/Mapsui.Rendering.Xaml.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="iOS|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Paul’s iPad" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
