@@ -15,7 +15,6 @@ namespace Mapsui.Samples.Wpf
     {
         public static Feature Create(double lat, double lon, Int64 imageName)
         {
-            //comment hi
             var feat = new Feature { Geometry = new Mapsui.Geometries.Point(lon, lat) };
 
             //const string location = @".\Resources\example.tif";
