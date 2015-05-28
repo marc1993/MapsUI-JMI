@@ -12,7 +12,7 @@ using GeoJSON.Net.Geometry;
 using GeoJSON.Net.Converters;
 using MongoDB.Driver.GeoJsonObjectModel;
 
-namespace Classes
+namespace MongoClasses
 {
     public class DataBase
     {

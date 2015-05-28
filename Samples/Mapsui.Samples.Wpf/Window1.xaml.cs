@@ -20,7 +20,7 @@ using Mapsui.Samples.Common.Desktop;
 using Mapsui.Samples.Wpf;
 using Mapsui.Styles;
 using Mapsui.UI.Xaml;
-using Classes;
+using MongoClasses;
 
 namespace Mapsui.Samples.Wpf
 {

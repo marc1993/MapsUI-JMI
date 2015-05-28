@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Classes;
 using GeoJSON;
 using GeoJSON.Net.Geometry;
 using GeoJSON.Net.Converters;
 using MongoDB.Driver.GeoJsonObjectModel;
+using MongoClasses;
 
 namespace MongoDBLibrary
 {

@@ -188,10 +188,6 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Source\Repos\ejemplo-mongodb\EjemploMongoDB\EjemploMongoDB.csproj">
-      <Project>{90f1e370-c006-4b75-972e-7d234279f3f2}</Project>
-      <Name>EjemploMongoDB</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Mapsui.UI.Xaml\Mapsui.UI.Xaml.csproj">
       <Project>{4b5676a4-6c5a-4caa-8317-faf40cefd361}</Project>
       <Name>Mapsui.UI.Xaml</Name>
@@ -199,6 +195,10 @@
     <ProjectReference Include="..\..\Mapsui\Mapsui.csproj">
       <Project>{d74c052a-c07e-4b37-a898-134218aca5c9}</Project>
       <Name>Mapsui</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MongoDBLibrary\MongoDBLibrary.csproj">
+      <Project>{5541c5be-12d6-4305-bf7f-ccb5f9d13af9}</Project>
+      <Name>MongoDBLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Tests\Mapsui.Providers.Tests\Mapsui.Providers.Tests.csproj">
       <Project>{4cf721f2-0e6e-4140-9ab3-12d003759747}</Project>
