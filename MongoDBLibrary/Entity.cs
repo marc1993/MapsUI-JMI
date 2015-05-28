@@ -28,7 +28,7 @@ namespace Classes
         public GeoJsonPoint<GeoJson2DGeographicCoordinates> Position { get; set; }
 
         public Int64 ImageName { get; set; } // The format is: DDMMYYYYHHMMSS
-        // let me try cfhchf
+
     }
 
 }
