@@ -42,7 +42,7 @@ namespace Mapsui.Samples.Wpf
             {
                 Process.Start(@"C:\Program Files\MongoDB\Server\3.0\bin\mongod.exe");
                 Process.Start(@"C:\Program Files\MongoDB\Server\3.0\bin\mongo.exe");
-                MessageBox.Show("MongoDB was not executed and has been started.");
+                MessageBox.Show("MongoDB was not being executed and has been started.");
             }
 
         }
