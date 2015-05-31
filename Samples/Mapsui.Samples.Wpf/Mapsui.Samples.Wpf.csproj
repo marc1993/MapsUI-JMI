@@ -119,6 +119,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="LayerSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Main.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -145,6 +149,9 @@
     </Compile>
     <Compile Include="LayerListItem.xaml.cs">
       <DependentUpon>LayerListItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LayerSettings.xaml.cs">
+      <DependentUpon>LayerSettings.xaml</DependentUpon>
     </Compile>
     <Compile Include="Main.xaml.cs">
       <DependentUpon>Main.xaml</DependentUpon>
@@ -217,7 +224,9 @@
       <Name>Mapsui.Samples.Common</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\settings.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\database.jpg" />
   </ItemGroup>

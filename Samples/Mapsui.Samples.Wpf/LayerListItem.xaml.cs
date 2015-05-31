@@ -46,5 +46,11 @@ namespace Mapsui.Samples.Wpf
                 tempLayer.Enabled = ((CheckBox)e.Source).IsChecked != false;
             }
         }
+
+        private void SettingsButton_Click(object sender, RoutedEventArgs e)
+        {
+            LayerSettings set = new LayerSettings();
+            set.ShowDialog();
+        }
     }
 }

@@ -5,9 +5,16 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="226" d:DesignWidth="309">
-    <StackPanel Orientation="Horizontal"  VerticalAlignment="Top" HorizontalAlignment="Right">
+    <StackPanel Orientation="Horizontal"  VerticalAlignment="Top" HorizontalAlignment="Right" Width="180">
         <TextBlock Margin="6" x:Name="textBlock">Text</TextBlock>
         <CheckBox x:Name="enabledCheckBox" Margin="0,6,6,6" VerticalAlignment="Center" HorizontalAlignment="Center" Click="EnabledCheckBoxClick"></CheckBox>
         <Slider x:Name="opacitySlider" Width="100" VerticalAlignment="Center" HorizontalAlignment="Right" Minimum="0" Maximum="1"  ValueChanged="OpacitySliderValueChanged"></Slider>
+        <Button x:Name="SettingsButton" Width="20" Height="20" ToolTip="Layer settings" Margin="2,0,0,0" Click="SettingsButton_Click">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Images\settings.png"/>
+                </StackPanel>
+            </Button.Content>
+        </Button>
     </StackPanel>
 </UserControl>
